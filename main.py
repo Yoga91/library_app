@@ -81,15 +81,16 @@ if __name__ == "__main__":
     username4.tampilkan_buku_perpus()
 
     username1.daftar_buku_dibaca(buku1)
-    username2.daftar_buku_dibaca(buku3)
     username3.daftar_buku_dibaca(buku2)
-    username4.daftar_buku_dibaca(buku4)
-
 
     username1.next_halaman()
-    username2.next_halaman()
     username3.next_halaman()
-    username4.next_halaman()
+
+    username1.daftar_buku_dibaca(buku1)
+    username3.daftar_buku_dibaca(buku2)
+
+    username1.next_halaman()
+    username3.next_halaman()
 
 
 
